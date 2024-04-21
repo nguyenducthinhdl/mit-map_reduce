@@ -84,6 +84,9 @@ rm -f mr-out*
 
 echo '***' Starting wc test.
 
+echo 'pwd: '
+pwd
+
 maybe_quiet $TIMEOUT ../mrcoordinator ../pg*txt &
 pid=$!
 
